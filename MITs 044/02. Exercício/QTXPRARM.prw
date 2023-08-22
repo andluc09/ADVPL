@@ -7,7 +7,7 @@
     @since 17/08/2023
     @version 0.1
     @see https://terminaldeinformacao.com/2021/07/08/como-criar-gatilhos-no-protheus/
-    /*/
+/*/
 
 User Function QTXPRARM()
 

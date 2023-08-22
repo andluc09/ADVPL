@@ -7,7 +7,7 @@
     @since 17/08/2023
     @version 0.1
     @see https://tdn.totvs.com/display/public/PROT/MT110TOK
-    /*/
+/*/
 
 User Function MT110TOK()
 
