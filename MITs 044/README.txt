@@ -9,10 +9,10 @@
 	DATA, inicial: 17/08/2023		–		DATA, finalizado: 17/08/2023
 
   3. – MIT044IP - Especificação de Personalização - ASW - GAP004 - Relatório de Pedido de Venda (Análise Crítica 2)
-	DATA, inicial: //2023		–		DATA, finalizado: //2023
+	DATA, inicial: 18/08/2023		–		DATA, finalizado: 23/08/2023
  
   4. – MIT044IP - Especificação de Personalização - Lote Manual na Entrada de Documentos
-	DATA, inicial: //2023		–		DATA, finalizado: //2023
+	DATA, inicial: 24/08/2023		–		DATA, finalizado: //2023
 
   5. – MIT044IP - Especificação de Personalização - Diversas Melhorias
 	DATA, inicial: //2023		–		DATA, finalizado: //2023
