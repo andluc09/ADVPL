@@ -18,20 +18,20 @@
 	DATA, inicial: 29/08/2023		–		DATA, finalizado: 30/08/2023
 
   6. – MIT044IP - Especificação de Personalização - Lote Manual na Entrada de Documentos
-	DATA, inicial: 24/08/2023		–		DATA, finalizado: //2023
+	DATA, inicial: 31/08/2023		–		DATA, finalizado: 04/09/2023
 
-  7. – MIT044IP - Especificação de Personalização - EMBRAMACO - GAPVEN039 - Cadastro de Metas de Venda
-	DATA, inicial: //2023		–		DATA, finalizado: //2023
+  7. – MIT044IP - Especificação de Personalização - Formas de Pagamento Títulos a Pagar
+	DATA, inicial: 05/09/2023		–		DATA, finalizado: 06/09/2023
 
-  8. – MIT044IP - Especificação de Personalização - FAT02 - Impressão do Formulário de Devolução
-	DATA, inicial: //2023		–		DATA, finalizado: //2023
+  8. – MIT044IP - Especificação de Personalização - EMBRAMACO - GAPVEN039 - Cadastro de Metas de Venda
+	DATA, inicial: 08/09/2023		–		DATA, finalizado: 11/09/2023
 
   9. – MIT044IP - Especificação de Personalização - FIN27 - Liberação de Títulos a Pagar Integrados via Doc. Entrada
-	DATA, inicial: //2023		–		DATA, finalizado: //2023
+	DATA, inicial: 12/09/2023		–		DATA, finalizado: 13/09/2023
 
- 10. – MIT044IP - Especificação de Personalização - Formas de Pagamento a Pagar
-	DATA, inicial: //2023		–		DATA, finalizado: //2023
+ 10. – MIT044IP - Especificação de Personalização - FAT02 - Impressão do Formulário de Devolução
+	DATA, inicial: 13/09/2023		–		DATA, finalizado: 14/09/2023
 
  11. – MIT044IP - Especificação de Personalização - Retirada e Entrega Documento Entrada
-	DATA, inicial: //2023		–		DATA, finalizado: //2023
+	DATA, inicial: 14/09/2023		–		DATA, finalizado: 15/09/2023
 
