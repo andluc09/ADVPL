@@ -1,0 +1,47 @@
+
+ |	Exercícios MITs 044 Projetos Simulados	|
+
+
+  1. – MIT044IP - Especificação de Personalização - ASW - GAP004 - Relatório de Pedido de Venda (Análise Crítica 2): versão FWMsPrinter()	[OK]
+     – MIT044IP - Especificação de Personalização - ASW - GAP004 - Relatório de Pedido de Venda (Análise Crítica 2): versão TReport()		
+	DATA, inicial: 29/11/2023			–		DATA, finalizado: 11/12/2023	
+_________________________________________________________________________________________________________________________________
+
+  2. – MIT044IP - Especificação de Personalização - Retirada e Entrega Documento Entrada				[OK]
+	DATA, inicial: 11/12/2023		–		DATA, finalizado: 13/12/2023
+_________________________________________________________________________________________________________________________________
+
+  3. – MIT044IP - Especificação de Personalização - Lote Manual na Entrada de Documentos				[OK]
+	DATA, inicial: 13/12/2023		–		DATA, finalizado: 15/12/2023	
+_________________________________________________________________________________________________________________________________
+
+  4. – MIT044IP - Especificação de Personalização - Atualização Ultimo Preço						[OK]
+	DATA, inicial: 15/12/2023		–		DATA, finalizado: 18/12/2023
+_________________________________________________________________________________________________________________________________
+
+  5. – MIT044IP - Especificação de Personalização - Consulta Títulos a Pagar						[]
+	DATA, inicial: 0/0/2023			–		DATA, finalizado: 0/0/2023	
+_________________________________________________________________________________________________________________________________
+
+  6. – MIT044IP - Especificação de Personalização - Diversas Melhorias							[]
+	DATA, inicial: 0/0/2023			–		DATA, finalizado: 0/0/2023
+_________________________________________________________________________________________________________________________________
+
+  7. – MIT044IP - Especificação de Personalização - Formas de Pagamento Títulos a Pagar					[]
+	DATA, inicial: 0/0/2023			–		DATA, finalizado: 0/0/2023	
+_________________________________________________________________________________________________________________________________
+
+  8. – MIT044IP - Especificação de Personalização - EMBRAMACO - GAPVEN039 - Cadastro de Metas de Venda			[]
+	DATA, inicial: 0/0/2023			–		DATA, finalizado: 0/0/2023	
+_________________________________________________________________________________________________________________________________
+
+  9. – MIT044IP - Especificação de Personalização - FIN27 - Liberação de Títulos a Pagar Integrados via Doc. Entrada	[]
+	DATA, inicial: 0/0/2023			–		DATA, finalizado: 0/0/2023	
+_________________________________________________________________________________________________________________________________
+
+ 10. – MIT044IP - Especificação de Personalização - FAT02 - Impressão do Formulário de Devolução			[]
+	DATA, inicial: 0/0/2023			–		DATA, finalizado: 0/0/2023	
+_________________________________________________________________________________________________________________________________
+
+ 11. – MIT044IP - Especificação de Personalização - Gatilhos								[]
+	DATA, inicial: 0/0/2023			–		DATA, finalizado: 0/0/2023

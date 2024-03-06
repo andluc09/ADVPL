@@ -1,0 +1,130 @@
+Criado a Função - Constrói Cabeçalho() utilizando dados provenientes de query das tabelas SC5 (Pedidos de Venda) e SA1 (Clientes)
+Criado a Função - Constrói Itens() utilizando dados proveniente de query da  tabela SC6 (Itens dos Pedidos de Venda) 
+Criado a Função - Monta Relatório() que é composta por demais funções auxiliares para confeccionar o relatório tratando a orientação da página em retrato e paisagem, levando em conta quebra de página e quebra de linha.
+
+Para hoje têm a validação de fluxo para visualização e/ou impressão do relatório, realização de testes das funcionalidades em cenários adversos e depuração do código total (debugging).  
+
+Reunião as 14h00
+
+Quanto a conversão do GAP004 - Relatório de Pedido de Venda (Análise Crítica 2) da classe FWMsPrinter() para a classe TReport()
+
+Criei um Fluxograma para guiar na execução, é a forma que eu me organizo verificando os exemplos na internet e códigos da capacitação:
+
+Realizado ainda ontem:
+
+Criada a tela de Configuração de Impressão [oReport:PrintDialog()]
+
+Criada a tela de Opções utilizando o construtor MsDialog()
+
+Criada a tela de Pergunats pelo Configurador
+
+Cadastrado os Parâmetros personalizados no SIGACFG para obter as informações do Cliente (Nome Fantasia, Endereço, E-mail, Telefone e CNPJ)  
+
+Criado a função de Seção de Apresentação dos Dados que contém: Colunas dos Parâmetros e Colunas do Relatório sendo: Coluna de Dados do Pedido e Coluna dos Itens do Pedido de Venda
+
+Hoje, estou desenvolvendo a Função de Consulta e a Seção de Impressão
+
+Ainda ontem desenvolvi a Função de Consulta e não concluí a Seção de Impressão totalmente, já fiz a parte de parâmetros das informações do cliente e das informações do pedido de venda, quanto os Itens do Pedido de Venda preciso concluir ainda.
+
+Hoje ainda pretendo realizar a validação de fluxo para visualização e/ou impressão do relatório, realização de testes das funcionalidades em cenários adversos e depuração do código total (debugging)
+___________________________________________________________________________________________
+
+! ATENÇÃO = GetArea e RestArea
+
+Linha 268: Organizar o INNER JOIN quanto ao Filial e D_E_L_E_T_ e Retirar do Where,
+pois no Where (Filtro) se faz referência a tabela do FROM (Tabela Principal)
+___________________________________________________________________________________________
+
+Melhorias
+
+1) Não abrir a tela de Recebimento (Data e Hora) se o usuário cancelar a gravação do Doc. Entrada [OK]
+
+2) Exibir a tela de Recebimento (Data e Hora) se o usuário clicar no botão Visualizar (campos não devem estar editáveis) [OK]
+
+3) Validar se a hora é uma hora válida (ex. impedir que o usuário digite uma hora como 24:59:01) [OK]
+Hora permitida: 00:00 até 23:59
+___________________________________________________________________________________________
+
+Configuração teria de ser realizada por outro analista de implantação ou próprio cliente.
+
+Parâmetro - Configuração de produtos para controle de lote. -> POSSUI MAIS DE UMA CONFIGURAÇÃO (IDENTIFICAR)
+
+Realizado parametrização no módulo SIGAEST, ativando o controle de Lote/Rastro para produtos segundo documentação da TOTVS
+
+Pesquisado e Criado os pontos de entrada:
+ • MT100LOK - Alterações de Itens da NF de Despesas de Importação
+ • MT100TOK - Valida a inclusão de NF
+ • MT140LOK - Valida informações no pré-documento de entrada
+ • MT140TOK - Valida todos os ítens do Pré-Documento
+
+1ª Parte: Criação da rotina personalizada, a qual deverá verificar se o produto informado (D1_COD) tem
+controle de lote (B1_RASTRO<>”N”)
+
+2ª Parte: Criação da validação para o caso afirmativo onde o produto informado têm controle de lote, validar se os campos de número e validade do lote foram preenchidos (D1_LOTECLT e D1_DTVALID). Deverá ser retornado false caso os campos de lote e validade não tenham sido informados, impedindo o lançamento da prénota
+ou do documento de entrada.
+
+Preparação da massa de testes, o cadastro de diferentes produtos com e sem controle de lote.
+
+Realização de testes das funcionalidades gerais e submetido a cenários adversos. 
+
+Depuração do código total (debugging).
+___________________________________________________________________________________________
+
+Criado dois campos personalizados via SIGACFG (Configurador) no Protheus.
+ • C1_ZZPRCSG: Preço Sugerido – numérico (14,2)
+ • CP_ZZPRCSG: Preço Sugerido – numérico (14,2)
+
+Criado gatilhos para os campos: C1_QUANT e CP_QUANT. 
+ • C1_QUANT —> C1_ZZPRCSG
+ • CP_QUANT —> CP_ZZPRCSG
+
+Criado rotina personalizada para os Gatilhos dos campos: C1_QUANT e CP_QUANT. 
+
+Criado os pontos de entrada:
+ • MT110TOK - Confirma a gravação Solicitação de Compra
+ • MTA105OK - Confirma a gravação da solicitação ao almoxarifado (Solicitação ao Armazém)
+
+Criado rotina personalizada para os Pontos de Entrada: MT110TOK (Solicitação de Compra) e MTA105OK (Solicitação ao Armazém).
+
+Realização de testes das funcionalidades gerais e submetido a cenários adversos. 
+
+Depuração do código total (debugging).
+___________________________________________________________________________________________
+
+Criado ponto de entrada: MTA103MNU - Inserir novas opções no array aRotina
+Inserido um botão no "Outras Ações’ do browse principal em Documento de Entrada (rotina padrão MATA103)
+
+Criado query envolvendo às tabelas: SE2 - Contas a Pagar, SE5 - Movimentação Bancária e SF1 - Cabeçalho das NF de Entrada
+Apresentando os seguintes campos:
+ • Parcela (E2_PARCELA)
+ • Vencimento (E2_VENCREA)
+ • Valor Original (E2_VALOR)
+ • Valor Pago (somatório E5_VALOR)
+ • Data Pagamento (E2_BAIXA)
+
+Criado tela utilizando à classe FwBrowse()
+Fornece um objeto do tipo grid que permite a exibição de dados do tipo array, texto, tabela e query.
+
+Preparação da massa de testes.
+ • Incluir pedidos de compra com diferentes condições de pagamento com diferentes parcelas e depois incluir os documentos de entrada vinculados a esses pedidos, gerando os títulos a pagar;
+ • Efetuar a baixa no financeiro de parte desses títulos a pagar.
+
+Realização de testes das funcionalidades gerais e submetido a cenários adversos. 
+Bateria de testes, provocando cenários específicos, escolhas diversificadas, envolvendo a geração de títulos a pagar e a baixa no financeiro.
+
+Depuração do código total (debugging).
+Análise minuciosa do funcionamento total do fonte, abrangendo pontos de parada e acompanhamento das variáveis ao longo da execução.
+___________________________________________________________________________________________
+
+DISTINCT - analisar: amarrações e agrupamentos, não se faz necessário
+Observar: índice das Tabelas e Relacionamentos via Terminal da Informação ou extensão TDS [OK]
+
+Caso não haja agregação ex.: SUM(), o restante dos campos são agrupados na consultas! [OK]
+
+Chave completa da Tabela Posicionada no Filtro (WHERE), também [OK] Tabela Correta: SF1 
+
+Estética: usabilidade, tamanho da tela [OK]
+
+Tela mostrar títulos não baixados como sendo 0.00 -- LEFT JOIN (a tabela principal têm que existir, porém a tabela comparada será opcional: SE5)
+
+Exibir mensagem amigável

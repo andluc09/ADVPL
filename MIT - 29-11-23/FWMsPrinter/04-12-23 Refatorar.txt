@@ -1,0 +1,19 @@
+
+Tabela Padrão, não se fecha:
+
+RETIRAR - DBCloseArea() TABELA SC5 [OK]
+
+Tabela Padrão, utilizar:
+
+GetArea()
+RestArea()
+
+Obs.: Independente da utilização da tabela padrão ou mais de uma empregar o GetArea() e RestArea() geral + o especifico 
+
+Retirar às validaçõesd do Pergunte. [OK]
+
+Testar o quebra página, inserindo vários itens em um mesmo pedido! [OK]
+
+* Adicionar ao menu de Pedidos de Venda, a rotina
+
+* Classe Treport (ADVPL), migrar para o modelo! Converter

@@ -1,0 +1,31 @@
+
+GUIA DE REFERÊNCIA DE ATUAÇÃO
+
+ • Combinar com o cliente onde deve ser desenvolvido, base local ou base teste;
+
+ • Alinhar as coisas com o Coordenador, melhor apoio;
+
+ • Identificar as empresas a qual a personalização se destina, acesso;
+
+ • Processo de criação conforme rotina, repassar: ex.: Pedido de Venda, geração;
+
+ • Testar mais de um cenário: ex.: imprimir mais de um pedido, excluir pedido e tentar imprimir, ...;
+
+ • Informações explicitas, se ater ao documento tanto por conta do prazo ou custos;
+
+ • No caso de haver prints desatualizados ou inconsistente, qualquer variação DEVE ser questionada anteriormente;
+
+ • Pode não ter sido especificado todas as características dos campos ou os próprios campos quanto a criação de um tabela personalizada;
+
+ • Quem define ou atribuí é o Coordenador do Projeto, levar o mínimo de informação possível para deixar encaminhado (estimar tempo/dificuldade);
+
+ • Conforme sempre a decisão do Coordenador de Projeto;
+
+ • Criar a OS conforme Modelo de Projeto, duas: uma técnica e outra para o cliente /|\ gerar um modelo hibrído de OS contemplando um equilíbrio quanto vocabulário adotado;
+
+ • Se parametrizar com prazo estipulado, ligar se necessário e fazer o máximo para ter a informação necessária ao desenvolvimento.
+
+	Obs.: No caso de relatório consultar o Layout com o Cliente/Coordenador
+
+Adaptar o meu discurso ou linguagem conforme meu ouvinte: se direcionar ao cliente ou correspondente do cliente (Tratar com o Coordenador antes de acordo com o perfil do ponto de contato no cliente)
+Quanto menos informar a parte técnica, menor a chance de gerar questionamentos. Apenas se e salvo o caso que se trate de alguém de TI ou responsável pela parte técnica no cliente.

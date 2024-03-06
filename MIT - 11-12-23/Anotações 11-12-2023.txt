@@ -1,0 +1,15 @@
+
+• Cadastrar campos personalizados no Protheus.
+Sendo os campos personalizados de data e horário referentes a retirada e entrega.
+
+• Criar ponto de entrada MT103FIM.
+Após o destravamento de todas as tabelas envolvidas na gravação do documento de entrada, depois de fechar a operação realizada neste. É utilizado para realizar alguma operação após a gravação da NFE.
+
+• Criar tela e componentes relacionados ao layout.
+Utilização de funções especialistas: MSDIALOG(), BUTTON(), MSGET() e SAY() para gerar a interface visual.
+
+• Realização de testes das funcionalidades em cenários adversos.
+Bateria de testes, provocando cenários específicos, escolhas diversificadas, envolvendo a gravação dos campos de data e horário quanto retirada e entrega.
+
+• Depuração do código total (debugging). 
+Análise minuciosa do funcionamento total do fonte, abrangendo pontos de parada e acompanhamento das variáveis ao longo da execução.
